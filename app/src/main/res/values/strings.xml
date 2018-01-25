@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PushNotificationSkeleton</string>
+    <string name="default_notification_channel_title">Default</string>
+    <string name="example_notification_channel_title">Example</string>
+</resources>
