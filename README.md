@@ -13,7 +13,7 @@ which recieves the notification.
 
 
 <img src="./push_notification_skeleton.png" width="600" height="486"/>
-- NotificationItemResolver store the current notification ID and the type on a SharedPreferences map which gonna store everything until an activity will be opened from the notification intent. Finally it will go though a swich and decide which kind of `PushNotificationItem` it should return.
+- `NotificationItemResolver` store the current notification ID and the type on a SharedPreferences map which gonna store everything until an activity will be opened from the notification intent. Finally it will go though a swich and decide which kind of `PushNotificationItem` it should return.
 
 - `PushNotificationItem` is a sealed class with the possible `Notitication` types of our application, inside we will decide the text of the notification, the channel and everything.
 
